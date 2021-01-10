@@ -8,7 +8,7 @@ const fs = require('fs-extra')
 const axios = require('axios')
 const fetch = require('node-fetch')
 
-const banned = JSON.parse(fs.readFileSync('./settings/banned.json'))
+const banned = JSON.parse(fs.readFileync('./settings/banned.json'))
 
 const { 
     removeBackgroundFromImageBase64
