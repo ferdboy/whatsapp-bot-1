@@ -9,7 +9,7 @@ const start = (aruga = new Client()) => {
     console.log(color(figlet.textSync('ARUGA BOT', { font: 'Ghost', horizontalLayout: 'default' })))
     console.log(color(figlet.textSync('----------------', { horizontalLayout: 'default' })))
     console.log(color('[DEV]'), color('ArugaZ', 'yellow'))
-    console.log(color('[~>>]'), color('BOT Started!', 'green'))
+    console.log(color('[~>>]'), color('BOT Sarted!', 'green'))
 
     // Mempertahankan sesi agar tetap nyala
     aruga.onStateChanged((state) => {
